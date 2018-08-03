@@ -1,0 +1,17 @@
+{
+  "name": "sports-star-stats",
+  "version": "1.0.0",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "rxjs": "^6.2.2",
+    "sinkro": "^1.2.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}
