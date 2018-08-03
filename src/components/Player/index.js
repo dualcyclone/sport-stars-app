@@ -23,6 +23,10 @@ export class Player extends Component {
     render() {
         const { player, countryList } = this.props
 
+        if (!player || (!countryList || Object.keys(countryList).length === 0)) {
+            return null;
+        }
+
         return (
             <div className="player">
                 <div className="picture">
@@ -83,12 +87,8 @@ export class Player extends Component {
 };
 
 Player.propTypes = {
-    player: PropTypes.object.isRequired,
+    player: PropTypes.object,
     countryList: PropTypes.object
-}
-
-Player.defaultProps = {
-    countryList: {}
 }
 
 export default subscribe({

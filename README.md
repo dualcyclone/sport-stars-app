@@ -11,6 +11,8 @@ Then, to run this app, execute: `npm start`.
 
 To view the app, open a browser and visit `http://localhost:3000/`.
 
+To run tests: `npm test`
+
 ## Things that could be added
 
 - User activated sorting of the various player properties
