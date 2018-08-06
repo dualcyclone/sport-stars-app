@@ -1,5 +1,7 @@
 # Sport Star Stats example
 
+Worked example for: https://gist.github.com/ldabiralai/31be5268f0c083b61bcbd6bb57ef68d2
+
 Loading in a JSON file, and displaying the stats for the given stars in a sortable list.
 
 Also loading a JSON file containing Olympic country codes to cross reference with the players country to get the full country name.
